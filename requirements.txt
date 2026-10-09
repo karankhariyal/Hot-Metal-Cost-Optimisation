@@ -1,0 +1,9 @@
+# Hospet Cost Studio runtime: the stricter of the sinter and MBF pins.
+# PuLP must stay below 4: the MBF engine does not work with PuLP 4.
+streamlit>=1.46,<2
+pandas>=2.2,<3
+numpy>=1.26,<3
+PuLP>=2.8,<4
+highspy>=1.7
+openpyxl>=3.1,<4
+plotly>=5.20,<8
